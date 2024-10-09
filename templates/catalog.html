@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог Мужской Обуви</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/catalog.css">
+</head>
+<body>
+    <div id="header"></div>
+
+     <!-- Навигация -->
+    <div id="nav"></div>
+
+    <main>
+    <h1>Каталог Мужской Обуви</h1>
+
+   <!-- Фильтр товаров в виде выпадающего списка -->
+   <div class="filter">
+    <label for="category-select">Выберите категорию:</label>
+    <select id="category-select">
+        <option value="all">Все категории</option>
+        <option value="sneakers">Кроссовки</option>
+        <option value="boots">Ботинки</option>
+        <option value="shoes">Туфли</option>
+        <option value="summer">Летняя обувь</option>
+        <option value="winter">Зимняя обувь</option>
+    </select>
+</div>
+
+    <!-- Список товаров -->
+    <div class="catalog">
+        <div class="product">
+            <img src="images/shoes1.jpg" alt="Кроссовки">
+            <h2>Кроссовки</h2>
+            <p>Легкие и удобные кроссовки для активного отдыха.</p>
+            <p class="price">Цена: 5000 руб.</p>
+            <a href="#" class="buy-btn">Купить</a>
+        </div>
+
+        <div class="product">
+            <img src="images/shoes2.jpg" alt="Ботинки">
+            <h2>Ботинки</h2>
+            <p>Теплые ботинки для холодной погоды с водонепроницаемым покрытием.</p>
+            <p class="price">Цена: 7500 руб.</p>
+            <a href="#" class="buy-btn">Купить</a>
+        </div>
+
+        <div class="product">
+            <img src="images/shoes3.jpg" alt="Туфли">
+            <h2>Туфли</h2>
+            <p>Элегантные кожаные туфли для деловых встреч и мероприятий.</p>
+            <p class="price">Цена: 8000 руб.</p>
+            <a href="#" class="buy-btn">Купить</a>
+        </div>
+    </div>
+    </main>
+
+     <!-- Футер -->
+    <div id="footer"></div>
+
+    <script src="../js/app.js"></script>
+    <script src="../js/filter.js"></script>
+</body>
+</html>

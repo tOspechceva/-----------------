@@ -1,0 +1,52 @@
+body {
+    background-image: url('..\\img\\pexels-rahulp9800-3286578.jpg'); /* Путь к изображению */
+    background-size: cover;    /* Изображение будет покрывать весь экран */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: center center; /* Центрирование фона */
+    display: flex;
+    flex-direction: column; /* Элементы будут располагаться в колонку */
+    min-height: 100vh; /* Высота body на весь экран */
+    margin: 0;
+ }
+ header {
+     background-color: #333;
+     color: white;
+     padding: 10px;
+     text-align: center;
+ }
+ nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #233870;  /* Цвет фона навигации */
+    padding: 10px;  /* Внутренние отступы для всего блока навигации */
+    text-align: center/* Центрирование текста */
+ }
+
+ nav a {
+    font-size: 18px; /* Размер текста ссылок */
+    color: #fff;/* Цвет текста */
+    text-decoration: none;/* Убираем подчеркивание ссылок */
+    padding: 10px; /* Отступы между ссылками */
+}
+nav a:hover {
+    background-color: #333;  /* Изменение цвета при наведении */
+}
+
+
+ main {
+    
+    justify-content: center;  /* Центрирование по горизонтали */
+    align-items: center;      /* Центрирование по вертикали */
+    flex: 1;                  /* Этот блок займет все оставшееся пространство */
+    padding: 20px;
+    text-align: center;
+ }
+ footer {
+     background-color: #464343;
+     color: white;
+     padding: 10px;
+     text-align: center;
+     height: auto;
+ }
+ 
+

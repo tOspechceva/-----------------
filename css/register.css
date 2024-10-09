@@ -1,0 +1,39 @@
+.container {
+    
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+h2 {
+    text-align: center;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:#2d4485;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color:#2d4485;
+}
+
+main {
+    display: flex;
+    justify-content: center;  /* Центрирование по горизонтали */
+    align-items: center;      /* Центрирование по вертикали */
+    flex: 1;                  /* Этот блок займет все оставшееся пространство */
+    padding: 20px;
+    text-align: center;
+ }
